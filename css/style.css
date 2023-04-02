@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@400;500 & family= Roboto & display=swap');
+/*comienza el selector universal */
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight:500 ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* termina selector universal */
+body{
+    background-color: black;
+}
+/* comienza header */
+header{ background-color: black;
+padding: 30px 0px;
+width: 100%;
+border: solid 5px gold;
+margin-top: 25px;
+padding: 0 0;
+}
+/* aplicando estilo a la imagen dentro del header */
+        header img{
+            border: solid 5px; color: gold;
+            display: flex;
+            width: 48%;
+            height: auto;
+        }
+/* aplicando posicionamiento al texto del header */        
+.text-header{
+    display: flex;
+    justify-content: center;
+ }
+/* aplicando estilo visual al texto del header */
+.border-text{
+    border: solid 5px; color: gold;
+    font-size: 3.2em;
+    line-height: 2em;
+    text-align: center;
+    background-image: url(../img/main/agu-main.jpg);
+}
+/* termina header - header class */    
+
+/* comienza navegador */
+nav{
+    background-color:black;
+    border: 5px solid; color:gold;
+    position:sticky;
+    width: 100%;
+    top: 0;
+    background-image: url(../img/nav-footer/Footer.png);
+    background-size: cover;
+    background-position: 100%;
+}  
+/* posicionamiento del navegador */
+    nav ul{
+        display: inline-block;
+        margin: 30px 0px;
+    }
+      nav ul li a:hover{
+        color: rgb(151, 170, 65);
+      }    
+/* posicionamiento del navegador */
+         nav ul li{
+            display: inline-block;
+            margin: 0px 20px;
+           /*  border:solid 2px; */
+        }
+             nav ul li a{ 
+                background-color: black;
+                color: white;
+            }
+
+                nav a img{
+                     width: 85px;
+                     height: auto;
+                     border: 5px solid; color: gold;
+                }
+
+                    nav div a img{
+                         width: 70px; height: 70px;
+                    }
+/* termina navegador */
+
+/* empieza configuracion sticky(nav queda en el mismo lugar plantada) */  
+.sticky-position{
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: gold;
+    border:  5px double; color: gold;
+    font-size: 2em;
+}
+/* termina configuracion sticky */
+
+/* comienza contenido principal */
+main{
+    border: solid 7px;
+    background-image: url(../img/main/agu-main.jpg);
+    margin: 100px 0;
+}
+        main h1{
+            text-align: center;
+            border: solid 3px;
+            color: gold;
+            font-size: 3em;
+            font-weight: bold;
+        }
+                main div article{
+                     border: double 3px; 
+                     color: wheat;
+                     margin-bottom: 30px;
+                     padding: 15px;
+                     text-align: center;
+                }
+                    main div article h2{
+                        border: solid 3px;
+                         color: bisque;
+                        background-color: black;
+                        font-size: 1em;
+                    }
+                        main div article p:hover{
+                             color: yellow;
+                        }
+/* aplicado en "index"/"productos"/"ofertas"/"conocenos"/"contacto"*/
+.tamano-img{
+    width: 80px;
+    height: auto;
+}
+/* aplicado en "productos"-img */
+.productos-tamano{
+    width: 80px;
+    height: 80px;
+    margin-left:15%;
+}
+/* aplicado en todas las paginas(elemento fijo dentro de todas) */
+.multimedia{
+    border: solid 3px;
+    color: gold;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+/* aplicado en todas las paginas (tamaño de las fuentes) */
+.parrafos-principales{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+/* posicionamiento del display para "index" y "productos" */
+.display-index-productos{
+    display: flex;
+    justify-content: center;
+}
+/* aplicado en pagina "ofertas" */
+.border-ofertas:hover{ 
+    border: solid 3px; color:yellow;
+}
+/* aplicado en "conocenos" para etiq h1 */
+.h1-conocenos{
+    text-align: left;
+}
+/*aplicado en articulo de la pagina "conocenos" */
+.alineado{
+    text-align: left;
+    font-size: 2em;
+    line-height: 1em;
+}
+/* aplicado en contactos (google maps) */
+.iframe-contactos{
+    display: flex;
+   justify-content: right;
+}
+/* aplicado en los formularios */
+.tamanos-formularios{
+   border: solid 5px gold;
+   color: wheat;
+   
+}
+.conteiner-formularios{
+    margin-right: 70%;
+    border: solid gold 5px;
+    background-image: url(../img/main/da.jpg);
+    margin-top: 50px;
+}
+.video{
+    width: 500px;
+    height: auto;
+}
+/* display "ofertas" */
+.padre-hijo{
+    display: flex;
+}
+/* aplicado en contactos */
+.main-class_cont{
+    font-size: 1em;
+    line-height: 1em;
+    color: black;
+}
+
+.indicacion-iframe{
+    display: flex;
+    justify-content: right;
+    color:gold;
+    margin-right: 5px;
+    font-size: 2em;
+}
+/* termina contenido principal */
+
+/* comienza pie de pagina */
+footer{
+    color: gold;
+    padding-top: 20px;
+}
+        footer div p{
+             text-align: right;
+             font-size: 2em;
+            }
+                footer div a img{
+                    width: 80px;
+                     height: 80px;
+                     margin: 8px 8px;
+                     padding: 10px auto
+                }
+.imag-fondo_footer{
+     background-image:url(../img/nav-footer/Footer.png);
+}  
+/* termina pie de pagina */
+
+
+
+
+
+
+
+
+
+
+
+
